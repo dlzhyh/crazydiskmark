@@ -2,9 +2,9 @@
 import os
 import re
 import hashlib
-from bs4 import BeautifulSoup
-import requests
 import shutil
+
+package = 'crazydiskmark'
 
 
 def updateFile(fileToUpdate, regPattern, newString):
@@ -48,13 +48,13 @@ with open(setup_filename, 'r') as f:
             version = group[0]
             break
 
-print('Update the package with new version...')
+print(f'Update the package with new version [ {version} ]')
 os.system("sed -i 's/pkgver=[0-9].[0-9].[0-9]/pkgver={}/g' PKGBUILD".format(version))
 
 print('Make downloads...')
-os.system('pip3 download --no-deps --no-binary :all: crazydiskmark')
+os.system(f'pip3 download --no-deps --no-binary :all: {package}')
 
-fileName = f'crazydiskmark-{version}.tar.gz'
+fileName = f'{package}-{version}.tar.gz'
 hash256 = sha256sum(fileName)
 print('Hash 256 is =====> {}'.format(hash256))
 print('Updating hash256 in PKGBUILD')
@@ -64,8 +64,7 @@ os.remove(fileName)
 if os.path.isfile('.SRCINFO'):
     os.remove('.SRCINFO')
 
-if os.path.isfile(f'crazydiskmark-${version}.tar.gz'):
-    os.system(f'rm -rfv crazydiskmark-${version}.tar.gz')
+os.system(f'rm -rf *.tar.gz')
 
 if os.path.isdir('src/'):
     os.system('git rm -r -f src/')
@@ -77,3 +76,5 @@ if os.path.isdir('pkg/'):
 
 print('Printing .SRCINFO...')
 os.system('makepkg --printsrcinfo > .SRCINFO')
+
+print('Ok, now goto aur repository and submit!')

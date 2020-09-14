@@ -1,8 +1,12 @@
-#!/usr/bin/python3
+import sys
 
-import coloredlogs
-import logging
-import re
+package = 'crazydiskmark'
+
+if len(sys.argv) == 1:
+    print('Please, specify the version from command line!')
+    sys.exit(0)
+
+version = sys.argv[1]
 
 
 def updateFile(fileToUpdate, regPattern, newString):
@@ -19,18 +23,13 @@ def updateFile(fileToUpdate, regPattern, newString):
             f.write(line)
 
 
-# Create a logger object.
-# shellcheck disable=SC2034
-logger = logging.getLogger(__name__)
-coloredlogs.install()
+newVersion = version
+pattern = "([0-9].[0-9].[0-9])"
 
-newVersion = '0.6.8'
-pattern = "([0-9]+\.[0-9]+\.[0-9]+)"
-
-files = ['setup.py', 'aur/PKGBUILD', 'debian/changelog', 'rpmbuild/crazydiskmark.spec']
+files = ['setup.py', f'{package}/version.py', 'aur/PKGBUILD']
 
 for file in files:
-    logger.info(f'Update version in file [{file}]')
+    print(f'Update version in file [{file}]')
     updateFile(file, pattern, newVersion)
 
-logger.info(f'All files was updated with version [{newVersion}]')
+print(f'All files was updated with version [{newVersion}]')

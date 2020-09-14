@@ -5,13 +5,12 @@ import json
 import humanfriendly
 from pathlib import Path
 from PyQt5 import QtWidgets, uic, QtCore, QtGui
-import logging
+from crazydiskmark.version import Version
 
 resource_path = os.path.dirname(__file__)
 
 
 class ThreadBenchmark(QtCore.QThread):
-    logger = logging.getLogger(__name__)
     bw_bytes = ''
     target = ''
     loops = '--loops=1'
@@ -93,27 +92,27 @@ class ThreadBenchmark(QtCore.QThread):
 
     def threadFinished(self):
         pass
-        self.logger.info('Thread Finished, garbage collecting now...')
+        print('Thread Finished, garbage collecting now...')
         targetFilename = f'{self.target}/{self.tmpFile}'
-        self.logger.info(f'Verifying if temp file exists {targetFilename}')
+        print(f'Verifying if temp file exists {targetFilename}')
         if os.path.isfile(targetFilename):
-            self.logger.info(f'Yes, removing the file: [{targetFilename}]')
+            print(f'Yes, removing the file: [{targetFilename}]')
             os.remove(targetFilename)
 
     def run(self):
         # executing Benchmarks
-        self.logger.info('Executing Benchmarks....')
+        print('Executing Benchmarks....')
         for index, operation in enumerate(self.operations):
-            self.logger.info(f'Running index: [{index}]\tprefix:\t[{operation["prefix"]}] rw:[{operation["rw"]}]')
+            print(f'Running index: [{index}]\tprefix:\t[{operation["prefix"]}] rw:[{operation["rw"]}]')
             filename = f'--filename="{self.target}/{self.tmpFile}"'
             name = f'--name={operation["prefix"]}{operation["rw"]}'
             currentCmd = f'{self.fioWhich} {self.loops} {self.size} {filename} {self.stoneWall} {self.ioEngine} {self.direct} {self.zeroBuffers} {name} --bs={operation["bs"]} --iodepth={operation["ioDepth"]} --numjobs={operation["numJobs"]} --rw={operation["rw"]} {self.outputFormat}'
-            self.logger.info(f'Executing Command: {currentCmd}')
+            print(f'Executing Command: {currentCmd}')
             output = json.loads(subprocess.getoutput(currentCmd).encode('utf-8'))
             if 'read' in operation['rw']:
                 self.bw_bytes = '{}/s'.format(humanfriendly.format_size(output['jobs'][0]['read']['bw_bytes']))
             else:
-                self.logger.info('Type Write')
+                print('Type Write')
                 self.bw_bytes = '{}/s'.format(humanfriendly.format_size(output['jobs'][0]['write']['bw_bytes']))
 
             # self.bw_bytes = f'{operation["prefix"]}{operation["rw"]}'
@@ -122,11 +121,11 @@ class ThreadBenchmark(QtCore.QThread):
 
 
 class MainWindow(QtWidgets.QMainWindow):
-    logger = logging.getLogger(__name__)
     thread = ThreadBenchmark()
     target = ''
     labelWidgets = []
     operationIndex = 0
+    version = Version()
 
     def __init__(self):
         super(MainWindow, self).__init__()
@@ -173,16 +172,17 @@ class MainWindow(QtWidgets.QMainWindow):
         self.okPushButton = self.aboutDialog.findChild(QtWidgets.QPushButton, 'okPushButton')
         self.okPushButton.clicked.connect(self.quitAboutDialog)
 
-        self.version = self.aboutDialog.findChild(QtWidgets.QLabel, 'versionLabel').text()
+        labelVersion = self.aboutDialog.findChild(QtWidgets.QLabel, 'versionLabel')
+        labelVersion.setText(self.version.getVersion())
 
-        self.setWindowTitle(f'Crazy DiskMark - {self.version}')
+        self.setWindowTitle(f'Crazy DiskMark - {self.version.getVersion()}')
         # Init results label and others widgets
         self.clearResults()
         # show window
         self.show()
 
     def receiveThreadBenchmark(self, val):
-        self.logger.info(f'Receiving ===> {val}')
+        print(f'Receiving ===> {val}')
         self.labelWidgets[self.operationIndex].setText(val)
         self.progressBar.setProperty('value', (self.operationIndex + 1) * 12.5)
         self.operationIndex += 1
@@ -195,7 +195,7 @@ class MainWindow(QtWidgets.QMainWindow):
         if self.thread.isRunning():
             self.startPushButton.setText('Start')
             self.statusbar.showMessage('IDLE')
-            self.logger.info('Stopping Thread....')
+            print('Stopping Thread....')
             self.thread.terminate()
             self.operationIndex = 0
         else:
@@ -203,12 +203,12 @@ class MainWindow(QtWidgets.QMainWindow):
             # Verify if directory is writable
             if self.isWritable():
                 self.startPushButton.setText('Stop')
-                self.logger.info('Starting benchmark...')
+                print('Starting benchmark...')
                 self.statusbar.showMessage('Running. Please wait, this may take several minutes...')
-                self.logger.info('Directory writable. OK [Starting Thread]')
+                print('Directory writable. OK [Starting Thread]')
                 self.thread.start()
             else:
-                self.logger.info('Directory not writable. [ERROR]')
+                print('Directory not writable. [ERROR]')
 
     def clearResults(self):
         self.statusbar.showMessage('IDLE')
@@ -219,22 +219,22 @@ class MainWindow(QtWidgets.QMainWindow):
 
     # show directory dialog
     def showDirectoryDialog(self):
-        self.logger.info('Show Directory Dialog!')
+        print('Show Directory Dialog!')
         dialog = QtWidgets.QFileDialog()
         dialog.setFileMode(QtWidgets.QFileDialog.DirectoryOnly)
         if dialog.exec():
             self.thread.target = dialog.selectedFiles()[0]
-            self.logger.info(f'Directory ===> {self.thread.target}')
+            print(f'Directory ===> {self.thread.target}')
             self.directoryLineEdit.setText(self.thread.target)
 
     def isWritable(self):
         self.thread.target = self.directoryLineEdit.text()
-        self.logger.info(f'Verify if dir {self.thread.target} is writable...')
+        print(f'Verify if dir {self.thread.target} is writable...')
         if os.access(self.thread.target, os.W_OK):
-            self.logger.info(f'{self.thread.target} is writable.')
+            print(f'{self.thread.target} is writable.')
             return True
         else:
-            self.logger.info(f'{self.thread.target} NOT writable.')
+            print(f'{self.thread.target} NOT writable.')
             errorDialog = QtWidgets.QMessageBox()
             errorDialog.setIcon(QtWidgets.QMessageBox.Warning)
             errorDialog.setText(f'Cannot write to directory {self.thread.target}')
@@ -250,9 +250,3 @@ class MainWindow(QtWidgets.QMainWindow):
     @staticmethod
     def appQuit():
         sys.exit()
-
-
-if __name__ == '__main__':
-    app = QtWidgets.QApplication(sys.argv)
-    window = MainWindow()
-    app.exec_()
