@@ -20,16 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b71e2933-4931-407f-9b17-07d49479c7e2" name="Default Changelist" comment="ready to internacionalization. :rocket: :rabbit: :rocket: 🦖">
-      <change afterPath="$PROJECT_DIR$/aur/crazydiskmark-0.6.8.tar.gz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/os" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/re" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sys" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aur/PKGBUILD" beforeDir="false" afterPath="$PROJECT_DIR$/aur/PKGBUILD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crazydiskmark/version.py" beforeDir="false" afterPath="$PROJECT_DIR$/crazydiskmark/version.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submitToPypi.py" beforeDir="false" afterPath="$PROJECT_DIR$/submitToPypi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/updateversions.py" beforeDir="false" afterPath="$PROJECT_DIR$/updateversions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submitToLaunchpad.py" beforeDir="false" afterPath="$PROJECT_DIR$/submitToLaunchpad.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
