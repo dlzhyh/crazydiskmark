@@ -20,11 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b71e2933-4931-407f-9b17-07d49479c7e2" name="Default Changelist" comment="ready to internacionalization. :rocket: :rabbit: :rocket: 🦖">
-      <change afterPath="$PROJECT_DIR$/crazydiskmark/crazydiskmark.pot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crazydiskmark/locale/pt_BR/LC_MESSAGES/crazydiskmark.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crazydiskmark/locale/pt_BR/LC_MESSAGES/crazydiskmark.po" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aur/crazydiskmark-0.6.8.tar.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/os" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/re" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sys" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/addAndCommit.py" beforeDir="false" afterPath="$PROJECT_DIR$/addAndCommit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aur/PKGBUILD" beforeDir="false" afterPath="$PROJECT_DIR$/aur/PKGBUILD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crazydiskmark/version.py" beforeDir="false" afterPath="$PROJECT_DIR$/crazydiskmark/version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submitToPypi.py" beforeDir="false" afterPath="$PROJECT_DIR$/submitToPypi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/updateversions.py" beforeDir="false" afterPath="$PROJECT_DIR$/updateversions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,13 +107,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598741722556</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Removing desktop file no more necessary :rocket:">
-      <created>1599094152677</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1599094152677</updated>
     </task>
     <task id="LOCAL-00015" summary="Removing files">
       <created>1599094224026</created>
@@ -446,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600075169207</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="ready to internacionalization. :rocket: :rabbit: :rocket: 🦖">
+      <created>1600077138676</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1600077138676</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -502,22 +507,22 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="781" y="323" width="514" height="387" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1599154783757" />
-    <state width="2065" height="274" key="GridCell.Tab.0.bottom" timestamp="1600076754650">
+    <state width="2065" height="274" key="GridCell.Tab.0.bottom" timestamp="1600077152282">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2065" height="274" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1600076754650" />
-    <state width="2065" height="274" key="GridCell.Tab.0.center" timestamp="1600076754649">
+    <state width="2065" height="274" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1600077152282" />
+    <state width="2065" height="274" key="GridCell.Tab.0.center" timestamp="1600077152281">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2065" height="274" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1600076754649" />
-    <state width="2065" height="274" key="GridCell.Tab.0.left" timestamp="1600076754649">
+    <state width="2065" height="274" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1600077152281" />
+    <state width="2065" height="274" key="GridCell.Tab.0.left" timestamp="1600077152281">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2065" height="274" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1600076754649" />
-    <state width="2065" height="274" key="GridCell.Tab.0.right" timestamp="1600076754650">
+    <state width="2065" height="274" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1600077152281" />
+    <state width="2065" height="274" key="GridCell.Tab.0.right" timestamp="1600077152282">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2065" height="274" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1600076754650" />
+    <state width="2065" height="274" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1600077152282" />
     <state x="9" y="86" width="2048" height="859" key="MergeDialog" timestamp="1599172141397">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -530,10 +535,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="529" y="155" width="930" height="730" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1600075262032" />
-    <state x="620" y="256" width="800" height="525" key="Vcs.Push.Dialog.v2" timestamp="1600075173407">
+    <state x="620" y="256" width="800" height="525" key="Vcs.Push.Dialog.v2" timestamp="1600077142255">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="620" y="256" width="800" height="525" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1600075173407" />
+    <state x="620" y="256" width="800" height="525" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1600077142255" />
     <state x="754" y="189" width="560" height="658" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598839620998">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

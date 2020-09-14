@@ -1,12 +1,7 @@
+#!/usr/bin/python3
+
 import sys
-
-package = 'crazydiskmark'
-
-if len(sys.argv) == 1:
-    print('Please, specify the version from command line!')
-    sys.exit(0)
-
-version = sys.argv[1]
+import re
 
 
 def updateFile(fileToUpdate, regPattern, newString):
@@ -23,7 +18,12 @@ def updateFile(fileToUpdate, regPattern, newString):
             f.write(line)
 
 
-newVersion = version
+if len(sys.argv) == 1:
+    print('Please, specify the version from command line!')
+    sys.exit(0)
+
+package = 'crazydiskmark'
+newVersion = sys.argv[1]
 pattern = "([0-9].[0-9].[0-9])"
 
 files = ['setup.py', f'{package}/version.py', 'aur/PKGBUILD']
