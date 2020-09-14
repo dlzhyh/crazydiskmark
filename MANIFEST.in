@@ -7,3 +7,8 @@ include crazydiskmark/*.ui
 include crazydiskmark/crazydiskmark.desktop
 include crazydiskmark/images/*
 include crazydiskmark/scripts/*
+include crazydiskmark/locale/*
+include crazydiskmark/locale/pt/*
+include crazydiskmark/locale/pt/LC_MESSAGES/*
+
+
