@@ -1,0 +1,145 @@
+# Crazy DiskMark.
+# Copyright (C) 2020 THE crazydiskmark'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the crazydiskmark package.
+# Fred Lins <fredcox@gmail.com>, 2020.
+#
+#, fuzzy
+msgid   ""
+msgstr  "Project-Id-Version: 0.6.8\n"
+        "Report-Msgid-Bugs-To: <fredcox@gmail.com>\n"
+        "POT-Creation-Date: 2020-09-14 06:24-0300\n"
+        "PO-Revision-Date: 2020-09-14 06:28 -0300\n"
+        "Last-Translator: Fred Lins <fredcox@gmail.com>\n"
+        "Language-Team: Fred Lins <fredcox@gmail.com>\n"
+        "Language: English\n"
+        "MIME-Version: 1.0\n"
+        "Content-Type: text/plain; charset=UTF-8\n"
+        "Content-Transfer-Encoding: 8bit\n"
+
+#: mainwindow.py:98
+msgid   "Thread Finished, garbage collecting now..."
+msgstr  ""
+
+#: mainwindow.py:100
+msgid   "Verifying if temp file exists"
+msgstr  ""
+
+#: mainwindow.py:102
+msgid   "Yes, removing the file:"
+msgstr  ""
+
+#: mainwindow.py:107
+msgid   "Executing Benchmarks...."
+msgstr  ""
+
+#: mainwindow.py:109
+msgid   "Running index:"
+msgstr  ""
+
+#: mainwindow.py:113
+msgid   "Executing Command:"
+msgstr  ""
+
+#: mainwindow.py:159
+msgid   "Read"
+msgstr  ""
+
+#: mainwindow.py:166
+msgid   "Write"
+msgstr  ""
+
+#: mainwindow.py:169
+msgid   "Directory select"
+msgstr  ""
+
+#: mainwindow.py:170
+msgid   "Select"
+msgstr  ""
+
+#: mainwindow.py:173
+msgid   "File"
+msgstr  ""
+
+#: mainwindow.py:176
+msgid   "Quit"
+msgstr  ""
+
+#: mainwindow.py:179
+msgid   "Help"
+msgstr  ""
+
+#: mainwindow.py:182
+msgid   "About"
+msgstr  ""
+
+#: mainwindow.py:211
+msgid   "Author: Fred Lins <fredcox@gmail.com>"
+msgstr  ""
+
+#: mainwindow.py:214
+msgid   "This program comes with absolutely no warranty."
+msgstr  ""
+
+#: mainwindow.py:217
+msgid   "License"
+msgstr  ""
+
+#: mainwindow.py:221
+msgid   "About Crazy DiskMark"
+msgstr  ""
+
+#: mainwindow.py:230
+msgid   "Receiving ===>"
+msgstr  ""
+
+#: mainwindow.py:235 mainwindow.py:241
+msgid   "Start"
+msgstr  ""
+
+#: mainwindow.py:236 mainwindow.py:242 mainwindow.py:259
+msgid   "IDLE"
+msgstr  ""
+
+#: mainwindow.py:243
+msgid   "Stopping Thread...."
+msgstr  ""
+
+#: mainwindow.py:250
+msgid   "Stop"
+msgstr  ""
+
+#: mainwindow.py:251
+msgid   "Starting benchmark..."
+msgstr  ""
+
+#: mainwindow.py:252
+msgid   "Running. Please wait, this may take several minutes..."
+msgstr  ""
+
+#: mainwindow.py:253
+msgid   "Directory writable. OK [Starting Thread]"
+msgstr  ""
+
+#: mainwindow.py:256
+msgid   "Directory not writable. [ERROR]"
+msgstr  ""
+
+#: mainwindow.py:271
+msgid   "Directory ===>"
+msgstr  ""
+
+#: mainwindow.py:276
+msgid   "Verify dir"
+msgstr  ""
+
+#: mainwindow.py:278
+msgid   "is writable."
+msgstr  ""
+
+#: mainwindow.py:281
+msgid   "NOT writable."
+msgstr  ""
+
+#: mainwindow.py:284
+msgid   "Cannot write to directory"
+msgstr  ""
