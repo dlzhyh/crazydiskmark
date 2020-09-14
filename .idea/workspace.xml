@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b71e2933-4931-407f-9b17-07d49479c7e2" name="Default Changelist" comment="Removing unecessary imports :rocket: :rocket: :game_die: :game_die: :game_die:">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crazydiskmark/aboutdialog.ui" beforeDir="false" afterPath="$PROJECT_DIR$/crazydiskmark/aboutdialog.ui" afterDir="false" />
+    <list default="true" id="b71e2933-4931-407f-9b17-07d49479c7e2" name="Default Changelist" comment="ready to internacionalization. :rocket: :rabbit: :rocket: 🦖">
       <change beforePath="$PROJECT_DIR$/crazydiskmark/mainwindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/crazydiskmark/mainwindow.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,13 +98,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598741722556</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Delete dist build and egg directories :rocket: :space_invader:">
-      <created>1599013957869</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1599013957869</updated>
     </task>
     <task id="LOCAL-00013" summary="Preparing to docker :rocket: :bug: :small_airplane: :airplane: :airplane:">
       <created>1599093706333</created>
@@ -444,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599321460664</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="ready to internacionalization. :rocket: :rabbit: :rocket: 🦖">
+      <created>1600075020036</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1600075020036</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -464,7 +462,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/crazydiskmark-aur" />
     </ignored-roots>
-    <MESSAGE value="Adjust the submit rules to AUR :space_invader: :space_invader:" />
     <MESSAGE value="Add ignore file to deb package" />
     <MESSAGE value="Debian package is ok. " />
     <MESSAGE value="mod binary script" />
@@ -489,29 +486,30 @@
     <MESSAGE value="Prepare to release 0.6.1" />
     <MESSAGE value="No more scripts shell necessary. :rocket: :rocket: :rocket:" />
     <MESSAGE value="Removing unecessary imports :rocket: :rocket: :game_die: :game_die: :game_die:" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removing unecessary imports :rocket: :rocket: :game_die: :game_die: :game_die:" />
+    <MESSAGE value="ready to internacionalization. :rocket: :rabbit: :rocket: " />
+    <option name="LAST_COMMIT_MESSAGE" value="ready to internacionalization. :rocket: :rabbit: :rocket: " />
   </component>
   <component name="WindowStateProjectService">
     <state x="781" y="323" width="514" height="387" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599154783757">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="781" y="323" width="514" height="387" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1599154783757" />
-    <state width="2065" height="274" key="GridCell.Tab.0.bottom" timestamp="1600074369823">
+    <state width="2065" height="274" key="GridCell.Tab.0.bottom" timestamp="1600074956785">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2065" height="274" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1600074369823" />
-    <state width="2065" height="274" key="GridCell.Tab.0.center" timestamp="1600074369822">
+    <state width="2065" height="274" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1600074956785" />
+    <state width="2065" height="274" key="GridCell.Tab.0.center" timestamp="1600074956784">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2065" height="274" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1600074369822" />
-    <state width="2065" height="274" key="GridCell.Tab.0.left" timestamp="1600074369822">
+    <state width="2065" height="274" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1600074956784" />
+    <state width="2065" height="274" key="GridCell.Tab.0.left" timestamp="1600074956784">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2065" height="274" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1600074369822" />
-    <state width="2065" height="274" key="GridCell.Tab.0.right" timestamp="1600074369822">
+    <state width="2065" height="274" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1600074956784" />
+    <state width="2065" height="274" key="GridCell.Tab.0.right" timestamp="1600074956784">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2065" height="274" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1600074369822" />
+    <state width="2065" height="274" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1600074956784" />
     <state x="9" y="86" width="2048" height="859" key="MergeDialog" timestamp="1599172141397">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
@@ -524,10 +522,10 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="529" y="155" width="930" height="727" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1600070548319" />
-    <state x="620" y="256" width="800" height="525" key="Vcs.Push.Dialog.v2" timestamp="1599321463708">
+    <state x="620" y="256" width="800" height="525" key="Vcs.Push.Dialog.v2" timestamp="1600075023241">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state x="620" y="256" width="800" height="525" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1599321463708" />
+    <state x="620" y="256" width="800" height="525" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1600075023241" />
     <state x="754" y="189" width="560" height="658" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598839620998">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

@@ -218,6 +218,7 @@ class MainWindow(QtWidgets.QMainWindow):
 
         labelVersion = self.aboutDialog.findChild(QtWidgets.QLabel, 'versionLabel')
         labelVersion.setText(self.version.getVersion())
+        self.aboutDialog.setWindowTitle(_('About Crazy DiskMark'))
 
         self.setWindowTitle(f'Crazy DiskMark - {self.version.getVersion()}')
         # Init results label and others widgets
