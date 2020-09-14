@@ -40,8 +40,7 @@ setuptools.setup(
 
     install_requires=[
         'humanfriendly',
-        'PyQt5',
-        'coloredlogs'
+        'PyQt5'
     ],
     include_package_data=True,
     zip_safe=False,
