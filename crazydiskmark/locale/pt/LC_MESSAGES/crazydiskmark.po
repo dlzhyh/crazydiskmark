@@ -1,46 +1,45 @@
-# Portuguese translations for PACKAGE package.
-# Copyright (C) 2020 THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#  <fredcox@gmail.com>, 2020.
+# Crazy DiskMark.
+# Copyright (C) 2020 THE crazydiskmark'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the crazydiskmark package.
+# Fred Lins <fredcox@gmail.com>, 2020.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: 0.6.8\n"
+"Report-Msgid-Bugs-To: <fredcox@gmail.com>\n"
 "POT-Creation-Date: 2020-09-14 06:24-0300\n"
-"PO-Revision-Date: 2020-09-14 06:27-0300\n"
+"PO-Revision-Date: 2020-09-14 08:22-0300\n"
 "Last-Translator:  <fredcox@gmail.com>\n"
-"Language-Team: Brazilian Portuguese <ldpbr-translation@lists.sourceforge."
-"net>\n"
-"Language: pt_BR\n"
+"Language-Team: Portuguese <translation-team-pt@lists.sourceforge.net>\n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: mainwindow.py:98
 msgid "Thread Finished, garbage collecting now..."
-msgstr "Thread finalizada, coletando lixo agora..."
+msgstr ""
 
 #: mainwindow.py:100
 msgid "Verifying if temp file exists"
-msgstr "Verificando se arquivo temporário existe..."
+msgstr ""
 
 #: mainwindow.py:102
 msgid "Yes, removing the file:"
-msgstr "Sim, removendo o arquivo:"
+msgstr ""
 
 #: mainwindow.py:107
 msgid "Executing Benchmarks...."
-msgstr "Executando testes"
+msgstr ""
 
 #: mainwindow.py:109
 msgid "Running index:"
-msgstr "Rodando index:"
+msgstr ""
 
 #: mainwindow.py:113
 msgid "Executing Command:"
-msgstr "Executando Comando:"
+msgstr ""
 
 #: mainwindow.py:159
 msgid "Read"
@@ -52,11 +51,11 @@ msgstr "Escrita"
 
 #: mainwindow.py:169
 msgid "Directory select"
-msgstr "Seleção de Diretório"
+msgstr ""
 
 #: mainwindow.py:170
 msgid "Select"
-msgstr "Selecionar"
+msgstr ""
 
 #: mainwindow.py:173
 msgid "File"
@@ -76,72 +75,72 @@ msgstr "Sobre"
 
 #: mainwindow.py:211
 msgid "Author: Fred Lins <fredcox@gmail.com>"
-msgstr "Autor: Fred Lins <fredcox@gmail.com>"
+msgstr ""
 
 #: mainwindow.py:214
 msgid "This program comes with absolutely no warranty."
-msgstr "Este programa não oferece nenhuma garantia."
+msgstr ""
 
 #: mainwindow.py:217
 msgid "License"
-msgstr "Licença"
+msgstr ""
 
 #: mainwindow.py:221
 msgid "About Crazy DiskMark"
-msgstr "Sobre Crazy DiskMark"
+msgstr ""
 
 #: mainwindow.py:230
 msgid "Receiving ===>"
-msgstr "Recebendo ===>"
+msgstr ""
 
 #: mainwindow.py:235 mainwindow.py:241
 msgid "Start"
-msgstr "Iniciar"
+msgstr ""
 
 #: mainwindow.py:236 mainwindow.py:242 mainwindow.py:259
 msgid "IDLE"
-msgstr "Parado"
+msgstr ""
 
 #: mainwindow.py:243
 msgid "Stopping Thread...."
-msgstr "Parando Thread"
+msgstr ""
 
 #: mainwindow.py:250
 msgid "Stop"
-msgstr "Parar"
+msgstr ""
 
 #: mainwindow.py:251
 msgid "Starting benchmark..."
-msgstr "Iniciando testes...."
+msgstr ""
 
 #: mainwindow.py:252
 msgid "Running. Please wait, this may take several minutes..."
-msgstr "Rodando. Por favor aguarde, isto pode demorar alguns minutos..."
+msgstr ""
 
 #: mainwindow.py:253
 msgid "Directory writable. OK [Starting Thread]"
-msgstr "Diretório de escrita OK [Inicializando Thread]"
+msgstr ""
 
 #: mainwindow.py:256
 msgid "Directory not writable. [ERROR]"
-msgstr "Diretório não é de escrita. [Erro]"
+msgstr ""
 
 #: mainwindow.py:271
 msgid "Directory ===>"
-msgstr "Diretório ===>"
+msgstr ""
 
 #: mainwindow.py:276
 msgid "Verify dir"
-msgstr "Verificando dir"
+msgstr ""
 
 #: mainwindow.py:278
 msgid "is writable."
-msgstr "é de escrita."
+msgstr ""
 
 #: mainwindow.py:281
 msgid "NOT writable."
-msgstr "Não é de escrita."
+msgstr ""
 
 #: mainwindow.py:284
 msgid "Cannot write to directory"
-msgstr "Não posso escreve no diretório"
+msgstr ""

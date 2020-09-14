@@ -20,8 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b71e2933-4931-407f-9b17-07d49479c7e2" name="Default Changelist" comment="ready to internacionalization. :rocket: :rabbit: :rocket: 🦖">
+      <change afterPath="$PROJECT_DIR$/aur/crazydiskmark-0.6.9.tar.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/submitToLaunchpad.py" beforeDir="false" afterPath="$PROJECT_DIR$/submitToLaunchpad.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aur/PKGBUILD" beforeDir="false" afterPath="$PROJECT_DIR$/aur/PKGBUILD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crazydiskmark/aboutdialog.ui" beforeDir="false" afterPath="$PROJECT_DIR$/crazydiskmark/aboutdialog.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crazydiskmark/locale/pt_BR/LC_MESSAGES/crazydiskmark.mo" beforeDir="false" afterPath="$PROJECT_DIR$/crazydiskmark/locale/pt/LC_MESSAGES/crazydiskmark.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crazydiskmark/locale/pt_BR/LC_MESSAGES/crazydiskmark.po" beforeDir="false" afterPath="$PROJECT_DIR$/crazydiskmark/locale/pt/LC_MESSAGES/crazydiskmark.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crazydiskmark/mainwindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/crazydiskmark/mainwindow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crazydiskmark/version.py" beforeDir="false" afterPath="$PROJECT_DIR$/crazydiskmark/version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -499,22 +506,22 @@
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
     <state x="781" y="323" width="514" height="387" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1599154783757" />
-    <state width="2065" height="274" key="GridCell.Tab.0.bottom" timestamp="1600077152282">
+    <state width="2065" height="274" key="GridCell.Tab.0.bottom" timestamp="1600083915570">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2065" height="274" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1600077152282" />
-    <state width="2065" height="274" key="GridCell.Tab.0.center" timestamp="1600077152281">
+    <state width="2065" height="274" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1600083915570" />
+    <state width="2065" height="274" key="GridCell.Tab.0.center" timestamp="1600083915570">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2065" height="274" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1600077152281" />
-    <state width="2065" height="274" key="GridCell.Tab.0.left" timestamp="1600077152281">
+    <state width="2065" height="274" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1600083915570" />
+    <state width="2065" height="274" key="GridCell.Tab.0.left" timestamp="1600083915569">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2065" height="274" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1600077152281" />
-    <state width="2065" height="274" key="GridCell.Tab.0.right" timestamp="1600077152282">
+    <state width="2065" height="274" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1600083915569" />
+    <state width="2065" height="274" key="GridCell.Tab.0.right" timestamp="1600083915570">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
-    <state width="2065" height="274" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1600077152282" />
+    <state width="2065" height="274" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1600083915570" />
     <state x="9" y="86" width="2048" height="859" key="MergeDialog" timestamp="1599172141397">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>

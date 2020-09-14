@@ -8,9 +8,9 @@ from PyQt5 import QtWidgets, uic, QtCore, QtGui
 from crazydiskmark.version import Version
 import gettext
 
-resource_path = os.path.dirname(__file__)
-t = gettext.translation('crazydiskmark', 'locale', fallback=True)
-_ = t.gettext
+localedir = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'locale')
+translate = gettext.translation('crazydiskmark', localedir, fallback=True)
+_ = translate.gettext
 
 
 class ThreadBenchmark(QtCore.QThread):
@@ -132,7 +132,7 @@ class MainWindow(QtWidgets.QMainWindow):
 
     def __init__(self):
         super(MainWindow, self).__init__()
-        uic.loadUi(f'{resource_path}/crazydiskmark.ui', self)
+        uic.loadUi(f'{os.path.dirname(__file__)}/crazydiskmark.ui', self)
         # Init default values
         self.labelDefaultStyle = """
         border: 1px solid black;
@@ -141,7 +141,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.directoryLineEdit = self.findChild(QtWidgets.QLineEdit, 'directoryLineEdit')
         self.directoryLineEdit.setText(str(Path.home()))
         self.selectPushButton = self.findChild(QtWidgets.QPushButton, 'selectPushButton')
-        self.selectPushButton.setIcon(QtGui.QIcon(f'{resource_path}/images/directoryicon.png'))
+        self.selectPushButton.setIcon(QtGui.QIcon(f'{os.path.dirname(__file__)}/images/directoryicon.png'))
         self.selectPushButton.clicked.connect(self.showDirectoryDialog)
         self.actionQuit = self.findChild(QtWidgets.QAction, 'actionQuit')
         self.actionQuit.triggered.connect(self.appQuit)
@@ -194,7 +194,7 @@ class MainWindow(QtWidgets.QMainWindow):
 
         self.statusbar = self.findChild(QtWidgets.QStatusBar, 'statusbar')
         self.startPushButton = self.findChild(QtWidgets.QPushButton, 'startPushButton')
-        self.startPushButton.setIcon(QtGui.QIcon(f'{resource_path}/images/starticon.png'))
+        self.startPushButton.setIcon(QtGui.QIcon(f'{os.path.dirname(__file__)}/images/starticon.png'))
         self.startPushButton.clicked.connect(self.startBenchMark)
         # Configura e conecta a thread
         # self.thread.setPriority(QtCore.QThread.HighestPriority)
@@ -203,7 +203,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.thread.target = Path.home()
 
         self.aboutDialog = QtWidgets.QDialog()
-        uic.loadUi(f'{resource_path}/aboutdialog.ui', self.aboutDialog)
+        uic.loadUi(f'{os.path.dirname(__file__)}/aboutdialog.ui', self.aboutDialog)
         self.okPushButton = self.aboutDialog.findChild(QtWidgets.QPushButton, 'okPushButton')
         self.okPushButton.clicked.connect(self.quitAboutDialog)
         # authorLabel
