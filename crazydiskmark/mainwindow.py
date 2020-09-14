@@ -169,6 +169,11 @@ class MainWindow(QtWidgets.QMainWindow):
         directoryLabel.setText(_('Directory select'))
         self.selectPushButton.setText(_('Select'))
 
+        # typeLabel
+        typeLabel = self.findChild(QtWidgets.QLabel, 'typeLabel')
+        typeLabel.setText(_('Type'))
+
+
         menuFile = self.findChild(QtWidgets.QMenu, 'menuFile')
         menuFile.setTitle(_('File'))
 
@@ -194,8 +199,8 @@ class MainWindow(QtWidgets.QMainWindow):
 
         self.statusbar = self.findChild(QtWidgets.QStatusBar, 'statusbar')
         self.startPushButton = self.findChild(QtWidgets.QPushButton, 'startPushButton')
-        self.startPushButton.setIcon(QtGui.QIcon(f'{os.path.dirname(__file__)}/images/starticon.png'))
         self.startPushButton.clicked.connect(self.startBenchMark)
+        self.startPushButton.setText(_('Start'))
         # Configura e conecta a thread
         # self.thread.setPriority(QtCore.QThread.HighestPriority)
         # self.thread.setTerminationEnabled()

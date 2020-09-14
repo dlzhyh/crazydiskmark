@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.6.8\n"
-"Report-Msgid-Bugs-To: <fredcox@gmail.com>\n"
-"POT-Creation-Date: 2020-09-14 06:24-0300\n"
-"PO-Revision-Date: 2020-09-14 09:05-0300\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-14 09:31-0300\n"
+"PO-Revision-Date: 2020-09-14 09:35-0300\n"
 "Last-Translator: fredcox@gmail.com\n"
 "Language-Team: Portuguese <translation-team-pt@lists.sourceforge.net>\n"
 "Language: pt\n"
@@ -18,130 +18,137 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.4.1\n"
 
-#: mainwindow.py:98
-msgid "Thread Finished, garbage collecting now..."
-msgstr "Thread finalizada, coletando lixo agora..."
+#: mainwindow.py:182 mainwindow.py:187
+msgid "About"
+msgstr "Sobre"
 
-#: mainwindow.py:100
-msgid "Verifying if temp file exists"
-msgstr "Verificando se arquivo temporário existe"
+#: mainwindow.py:221 mainwindow.py:226
+msgid "About Crazy DiskMark"
+msgstr "Sobre Crazy DiskMark"
 
-#: mainwindow.py:102
-msgid "Yes, removing the file:"
-msgstr "Sim, removendo o arquivo:"
+#: mainwindow.py:211 mainwindow.py:216
+msgid "Author: Fred Lins <fredcox@gmail.com>"
+msgstr "Autor: Fred Lins <fredcox@gmail.com>"
 
-#: mainwindow.py:107
-msgid "Executing Benchmarks...."
-msgstr "Executando testes..."
+#: mainwindow.py:284 mainwindow.py:289
+msgid "Cannot write to directory"
+msgstr "Não posso escrever no diretório"
 
-#: mainwindow.py:109
-msgid "Running index:"
-msgstr "Rodando index:"
+#: mainwindow.py:271 mainwindow.py:276
+msgid "Directory ===>"
+msgstr "Diretório ===>"
 
-#: mainwindow.py:113
-msgid "Executing Command:"
-msgstr "Executando Comando:"
-
-#: mainwindow.py:159
-msgid "Read"
-msgstr "Leitura"
-
-#: mainwindow.py:166
-msgid "Write"
-msgstr "Escrita"
+#: mainwindow.py:256 mainwindow.py:261
+msgid "Directory not writable. [ERROR]"
+msgstr "Diretório não é de escrita. [Erro]"
 
 #: mainwindow.py:169
 msgid "Directory select"
 msgstr "Seleção de Diretório"
 
+#: mainwindow.py:253 mainwindow.py:258
+msgid "Directory writable. OK [Starting Thread]"
+msgstr "Diretório de escrita ok [Iniciando Thread]"
+
+#. executing Benchmarks
+#: mainwindow.py:107
+msgid "Executing Benchmarks...."
+msgstr "Executando testes..."
+
+#: mainwindow.py:113
+msgid "Executing Command:"
+msgstr "Executando Comando:"
+
+#: mainwindow.py:173 mainwindow.py:178
+msgid "File"
+msgstr "Arquivo"
+
+#: mainwindow.py:179 mainwindow.py:184
+msgid "Help"
+msgstr "Ajuda"
+
+#: mainwindow.py:236 mainwindow.py:242 mainwindow.py:259 mainwindow.py:241
+#: mainwindow.py:247 mainwindow.py:264
+msgid "IDLE"
+msgstr "Parado"
+
+#: mainwindow.py:217 mainwindow.py:222
+msgid "License"
+msgstr "Licença"
+
+#: mainwindow.py:281 mainwindow.py:286
+msgid "NOT writable."
+msgstr "NÃO é de escrita."
+
+#: mainwindow.py:176 mainwindow.py:181
+msgid "Quit"
+msgstr "Sair"
+
+#: mainwindow.py:159
+msgid "Read"
+msgstr "Leitura"
+
+#: mainwindow.py:230 mainwindow.py:235
+msgid "Receiving ===>"
+msgstr "Recebendo  ===>"
+
+#: mainwindow.py:109
+msgid "Running index:"
+msgstr "Rodando index:"
+
+#: mainwindow.py:252 mainwindow.py:257
+msgid "Running. Please wait, this may take several minutes..."
+msgstr "Rodando teste, por favor espere, pois isso pode levar alguns minutos..."
+
 #: mainwindow.py:170
 msgid "Select"
 msgstr "Selecionar"
 
-#: mainwindow.py:173
-msgid "File"
-msgstr "Arquivo"
-
-#: mainwindow.py:176
-msgid "Quit"
-msgstr "Sair"
-
-#: mainwindow.py:179
-msgid "Help"
-msgstr "Ajuda"
-
-#: mainwindow.py:182
-msgid "About"
-msgstr "Sobre"
-
-#: mainwindow.py:211
-msgid "Author: Fred Lins <fredcox@gmail.com>"
-msgstr "Autor: Fred Lins <fredcox@gmail.com>"
-
-#: mainwindow.py:214
-msgid "This program comes with absolutely no warranty."
-msgstr "Este programa não tem nenhuma garantia."
-
-#: mainwindow.py:217
-msgid "License"
-msgstr "Licença"
-
-#: mainwindow.py:221
-msgid "About Crazy DiskMark"
-msgstr "Sobre Crazy DiskMark"
-
-#: mainwindow.py:230
-msgid "Receiving ===>"
-msgstr "Recebendo  ===>"
-
-#: mainwindow.py:235 mainwindow.py:241
+#: mainwindow.py:235 mainwindow.py:241 mainwindow.py:203 mainwindow.py:240
+#: mainwindow.py:246
 msgid "Start"
 msgstr "Iniciar"
 
-#: mainwindow.py:236 mainwindow.py:242 mainwindow.py:259
-msgid "IDLE"
-msgstr "Parado"
-
-#: mainwindow.py:243
-msgid "Stopping Thread...."
-msgstr "Parando Thread..."
-
-#: mainwindow.py:250
-msgid "Stop"
-msgstr "Parar"
-
-#: mainwindow.py:251
+#: mainwindow.py:251 mainwindow.py:256
 msgid "Starting benchmark..."
 msgstr "Iniciando teste..."
 
-#: mainwindow.py:252
-msgid "Running. Please wait, this may take several minutes..."
-msgstr "Rodando teste, por favor espere, pois isso pode levar alguns minutos..."
+#: mainwindow.py:250 mainwindow.py:255
+msgid "Stop"
+msgstr "Parar"
 
-#: mainwindow.py:253
-msgid "Directory writable. OK [Starting Thread]"
-msgstr "Diretório de escrita ok [Iniciando Thread]"
+#: mainwindow.py:243 mainwindow.py:248
+msgid "Stopping Thread...."
+msgstr "Parando Thread..."
 
-#: mainwindow.py:256
-msgid "Directory not writable. [ERROR]"
-msgstr "Diretório não é de escrita. [Erro]"
+#: mainwindow.py:214 mainwindow.py:219
+msgid "This program comes with absolutely no warranty."
+msgstr "Este programa não tem nenhuma garantia."
 
-#: mainwindow.py:271
-msgid "Directory ===>"
-msgstr "Diretório ===>"
+#: mainwindow.py:98
+msgid "Thread Finished, garbage collecting now..."
+msgstr "Thread finalizada, coletando lixo agora..."
 
-#: mainwindow.py:276
+#: mainwindow.py:174
+msgid "Type"
+msgstr "Tipo"
+
+#: mainwindow.py:276 mainwindow.py:281
 msgid "Verify dir"
 msgstr "Verificar dir"
 
-#: mainwindow.py:278
+#: mainwindow.py:100
+msgid "Verifying if temp file exists"
+msgstr "Verificando se arquivo temporário existe"
+
+#: mainwindow.py:166
+msgid "Write"
+msgstr "Escrita"
+
+#: mainwindow.py:102
+msgid "Yes, removing the file:"
+msgstr "Sim, removendo o arquivo:"
+
+#: mainwindow.py:278 mainwindow.py:283
 msgid "is writable."
 msgstr "é de escrita."
-
-#: mainwindow.py:281
-msgid "NOT writable."
-msgstr "NÃO é de escrita."
-
-#: mainwindow.py:284
-msgid "Cannot write to directory"
-msgstr "Não posso escrever no diretório"
