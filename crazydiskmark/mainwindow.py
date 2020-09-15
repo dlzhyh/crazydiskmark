@@ -5,6 +5,7 @@ import json
 import humanfriendly
 from pathlib import Path
 from PyQt5 import QtWidgets, uic, QtCore, QtGui
+from PyQt5.Qt import QUrl, QDesktopServices
 from crazydiskmark.version import Version
 import gettext
 
@@ -148,6 +149,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.actionAbout = self.findChild(QtWidgets.QAction, 'actionAbout')
         self.actionAbout.triggered.connect(self.showAboutDialog)
         self.progressBar = self.findChild(QtWidgets.QProgressBar, 'progressBar')
+        self.actionHelp = self.findChild(QtWidgets.QAction, 'actionHelp')
 
         # ReadLabel
         labelStyleSheet = """
@@ -173,7 +175,6 @@ class MainWindow(QtWidgets.QMainWindow):
         typeLabel = self.findChild(QtWidgets.QLabel, 'typeLabel')
         typeLabel.setText(_('Type'))
 
-
         menuFile = self.findChild(QtWidgets.QMenu, 'menuFile')
         menuFile.setTitle(_('File'))
 
@@ -185,6 +186,9 @@ class MainWindow(QtWidgets.QMainWindow):
 
         actionAbout = self.findChild(QtWidgets.QAction, 'actionAbout')
         actionAbout.setText(_('About'))
+
+        self.actionHelp.setText(_('Help'))
+        self.actionHelp.triggered.connect(self.openHelp)
 
         self.labelWidgets.append(self.findChild(QtWidgets.QLabel, 'seq1mq8t1ReadLabel'))
         self.labelWidgets.append(self.findChild(QtWidgets.QLabel, 'seq1mq8t1WriteLabel'))
@@ -230,6 +234,11 @@ class MainWindow(QtWidgets.QMainWindow):
         self.clearResults()
         # show window
         self.show()
+
+    @staticmethod
+    def openHelp():
+        url = QUrl('https://github.com/fredcox/crazydiskmark/blob/master/README.md')
+        QDesktopServices.openUrl(url)
 
     def receiveThreadBenchmark(self, val):
         print('{} {}'.format(_('Receiving ===>'), val))
