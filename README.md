@@ -15,8 +15,6 @@
 * [Buy me a Coffee](#buy-me-a-coffee)
 * [License](#license)
 
-## Please, this program is made to run in SSD´s only. Don´t try to run this app in mechanical disks. Thank you. 
-
 ## About
 
 ***Crazy DiskMark*** is a utility to benchmark ***SSD*** disks on linux and produce results like ***CrystalDiskMark***.
