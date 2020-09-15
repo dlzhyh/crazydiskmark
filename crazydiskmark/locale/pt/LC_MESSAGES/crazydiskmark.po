@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.6.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-14 09:31-0300\n"
+"POT-Creation-Date: 2020-09-15 19:36-0300\n"
 "PO-Revision-Date: 2020-09-14 09:35-0300\n"
 "Last-Translator: fredcox@gmail.com\n"
 "Language-Team: Portuguese <translation-team-pt@lists.sourceforge.net>\n"
@@ -18,137 +18,139 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 2.4.1\n"
 
-#: mainwindow.py:182 mainwindow.py:187
+#: mainwindow.py:182 mainwindow.py:187 mainwindow.py:188
 msgid "About"
 msgstr "Sobre"
 
-#: mainwindow.py:221 mainwindow.py:226
+#: mainwindow.py:221 mainwindow.py:226 mainwindow.py:230
 msgid "About Crazy DiskMark"
 msgstr "Sobre Crazy DiskMark"
 
-#: mainwindow.py:211 mainwindow.py:216
+#: mainwindow.py:211 mainwindow.py:216 mainwindow.py:220
 msgid "Author: Fred Lins <fredcox@gmail.com>"
 msgstr "Autor: Fred Lins <fredcox@gmail.com>"
 
-#: mainwindow.py:284 mainwindow.py:289
+#: mainwindow.py:284 mainwindow.py:289 mainwindow.py:298
 msgid "Cannot write to directory"
 msgstr "Não posso escrever no diretório"
 
-#: mainwindow.py:271 mainwindow.py:276
+#: mainwindow.py:271 mainwindow.py:276 mainwindow.py:285
 msgid "Directory ===>"
 msgstr "Diretório ===>"
 
-#: mainwindow.py:256 mainwindow.py:261
+#: mainwindow.py:256 mainwindow.py:261 mainwindow.py:270
 msgid "Directory not writable. [ERROR]"
 msgstr "Diretório não é de escrita. [Erro]"
 
-#: mainwindow.py:169
+#: mainwindow.py:169 mainwindow.py:171
 msgid "Directory select"
 msgstr "Seleção de Diretório"
 
-#: mainwindow.py:253 mainwindow.py:258
+#: mainwindow.py:253 mainwindow.py:258 mainwindow.py:267
 msgid "Directory writable. OK [Starting Thread]"
 msgstr "Diretório de escrita ok [Iniciando Thread]"
 
 #. executing Benchmarks
-#: mainwindow.py:107
+#: mainwindow.py:107 mainwindow.py:108
 msgid "Executing Benchmarks...."
 msgstr "Executando testes..."
 
-#: mainwindow.py:113
+#: mainwindow.py:113 mainwindow.py:114
 msgid "Executing Command:"
 msgstr "Executando Comando:"
 
-#: mainwindow.py:173 mainwindow.py:178
+#: mainwindow.py:173 mainwindow.py:178 mainwindow.py:179
 msgid "File"
 msgstr "Arquivo"
 
-#: mainwindow.py:179 mainwindow.py:184
+#: mainwindow.py:179 mainwindow.py:184 mainwindow.py:185 mainwindow.py:190
 msgid "Help"
 msgstr "Ajuda"
 
 #: mainwindow.py:236 mainwindow.py:242 mainwindow.py:259 mainwindow.py:241
-#: mainwindow.py:247 mainwindow.py:264
+#: mainwindow.py:247 mainwindow.py:264 mainwindow.py:250 mainwindow.py:256
+#: mainwindow.py:273
 msgid "IDLE"
 msgstr "Parado"
 
-#: mainwindow.py:217 mainwindow.py:222
+#: mainwindow.py:217 mainwindow.py:222 mainwindow.py:226
 msgid "License"
 msgstr "Licença"
 
-#: mainwindow.py:281 mainwindow.py:286
+#: mainwindow.py:281 mainwindow.py:286 mainwindow.py:295
 msgid "NOT writable."
 msgstr "NÃO é de escrita."
 
-#: mainwindow.py:176 mainwindow.py:181
+#: mainwindow.py:176 mainwindow.py:181 mainwindow.py:182
 msgid "Quit"
 msgstr "Sair"
 
-#: mainwindow.py:159
+#: mainwindow.py:159 mainwindow.py:161
 msgid "Read"
 msgstr "Leitura"
 
-#: mainwindow.py:230 mainwindow.py:235
+#: mainwindow.py:230 mainwindow.py:235 mainwindow.py:244
 msgid "Receiving ===>"
 msgstr "Recebendo  ===>"
 
-#: mainwindow.py:109
+#: mainwindow.py:109 mainwindow.py:110
 msgid "Running index:"
 msgstr "Rodando index:"
 
-#: mainwindow.py:252 mainwindow.py:257
+#: mainwindow.py:252 mainwindow.py:257 mainwindow.py:266
 msgid "Running. Please wait, this may take several minutes..."
-msgstr "Rodando teste, por favor espere, pois isso pode levar alguns minutos..."
+msgstr ""
+"Rodando teste, por favor espere, pois isso pode levar alguns minutos..."
 
-#: mainwindow.py:170
+#: mainwindow.py:170 mainwindow.py:172
 msgid "Select"
 msgstr "Selecionar"
 
 #: mainwindow.py:235 mainwindow.py:241 mainwindow.py:203 mainwindow.py:240
-#: mainwindow.py:246
+#: mainwindow.py:246 mainwindow.py:207 mainwindow.py:249 mainwindow.py:255
 msgid "Start"
 msgstr "Iniciar"
 
-#: mainwindow.py:251 mainwindow.py:256
+#: mainwindow.py:251 mainwindow.py:256 mainwindow.py:265
 msgid "Starting benchmark..."
 msgstr "Iniciando teste..."
 
-#: mainwindow.py:250 mainwindow.py:255
+#: mainwindow.py:250 mainwindow.py:255 mainwindow.py:264
 msgid "Stop"
 msgstr "Parar"
 
-#: mainwindow.py:243 mainwindow.py:248
+#: mainwindow.py:243 mainwindow.py:248 mainwindow.py:257
 msgid "Stopping Thread...."
 msgstr "Parando Thread..."
 
-#: mainwindow.py:214 mainwindow.py:219
+#: mainwindow.py:214 mainwindow.py:219 mainwindow.py:223
 msgid "This program comes with absolutely no warranty."
 msgstr "Este programa não tem nenhuma garantia."
 
-#: mainwindow.py:98
+#: mainwindow.py:98 mainwindow.py:99
 msgid "Thread Finished, garbage collecting now..."
 msgstr "Thread finalizada, coletando lixo agora..."
 
-#: mainwindow.py:174
+#: mainwindow.py:174 mainwindow.py:176
 msgid "Type"
 msgstr "Tipo"
 
-#: mainwindow.py:276 mainwindow.py:281
+#: mainwindow.py:276 mainwindow.py:281 mainwindow.py:290
 msgid "Verify dir"
 msgstr "Verificar dir"
 
-#: mainwindow.py:100
+#: mainwindow.py:100 mainwindow.py:101
 msgid "Verifying if temp file exists"
 msgstr "Verificando se arquivo temporário existe"
 
-#: mainwindow.py:166
+#: mainwindow.py:166 mainwindow.py:168
 msgid "Write"
 msgstr "Escrita"
 
-#: mainwindow.py:102
+#: mainwindow.py:102 mainwindow.py:103
 msgid "Yes, removing the file:"
 msgstr "Sim, removendo o arquivo:"
 
-#: mainwindow.py:278 mainwindow.py:283
+#: mainwindow.py:278 mainwindow.py:283 mainwindow.py:292
 msgid "is writable."
 msgstr "é de escrita."

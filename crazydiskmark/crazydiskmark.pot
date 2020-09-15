@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-09-14 09:31-0300\n"
+"POT-Creation-Date: 2020-09-15 19:36-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,137 +17,138 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: mainwindow.py:182 mainwindow.py:187
+#: mainwindow.py:182 mainwindow.py:187 mainwindow.py:188
 msgid "About"
 msgstr ""
 
-#: mainwindow.py:221 mainwindow.py:226
+#: mainwindow.py:221 mainwindow.py:226 mainwindow.py:230
 msgid "About Crazy DiskMark"
 msgstr ""
 
-#: mainwindow.py:211 mainwindow.py:216
+#: mainwindow.py:211 mainwindow.py:216 mainwindow.py:220
 msgid "Author: Fred Lins <fredcox@gmail.com>"
 msgstr ""
 
-#: mainwindow.py:284 mainwindow.py:289
+#: mainwindow.py:284 mainwindow.py:289 mainwindow.py:298
 msgid "Cannot write to directory"
 msgstr ""
 
-#: mainwindow.py:271 mainwindow.py:276
+#: mainwindow.py:271 mainwindow.py:276 mainwindow.py:285
 msgid "Directory ===>"
 msgstr ""
 
-#: mainwindow.py:256 mainwindow.py:261
+#: mainwindow.py:256 mainwindow.py:261 mainwindow.py:270
 msgid "Directory not writable. [ERROR]"
 msgstr ""
 
-#: mainwindow.py:169
+#: mainwindow.py:169 mainwindow.py:171
 msgid "Directory select"
 msgstr ""
 
-#: mainwindow.py:253 mainwindow.py:258
+#: mainwindow.py:253 mainwindow.py:258 mainwindow.py:267
 msgid "Directory writable. OK [Starting Thread]"
 msgstr ""
 
 #. executing Benchmarks
-#: mainwindow.py:107
+#: mainwindow.py:107 mainwindow.py:108
 msgid "Executing Benchmarks...."
 msgstr ""
 
-#: mainwindow.py:113
+#: mainwindow.py:113 mainwindow.py:114
 msgid "Executing Command:"
 msgstr ""
 
-#: mainwindow.py:173 mainwindow.py:178
+#: mainwindow.py:173 mainwindow.py:178 mainwindow.py:179
 msgid "File"
 msgstr ""
 
-#: mainwindow.py:179 mainwindow.py:184
+#: mainwindow.py:179 mainwindow.py:184 mainwindow.py:185 mainwindow.py:190
 msgid "Help"
 msgstr ""
 
 #: mainwindow.py:236 mainwindow.py:242 mainwindow.py:259 mainwindow.py:241
-#: mainwindow.py:247 mainwindow.py:264
+#: mainwindow.py:247 mainwindow.py:264 mainwindow.py:250 mainwindow.py:256
+#: mainwindow.py:273
 msgid "IDLE"
 msgstr ""
 
-#: mainwindow.py:217 mainwindow.py:222
+#: mainwindow.py:217 mainwindow.py:222 mainwindow.py:226
 msgid "License"
 msgstr ""
 
-#: mainwindow.py:281 mainwindow.py:286
+#: mainwindow.py:281 mainwindow.py:286 mainwindow.py:295
 msgid "NOT writable."
 msgstr ""
 
-#: mainwindow.py:176 mainwindow.py:181
+#: mainwindow.py:176 mainwindow.py:181 mainwindow.py:182
 msgid "Quit"
 msgstr ""
 
-#: mainwindow.py:159
+#: mainwindow.py:159 mainwindow.py:161
 msgid "Read"
 msgstr ""
 
-#: mainwindow.py:230 mainwindow.py:235
+#: mainwindow.py:230 mainwindow.py:235 mainwindow.py:244
 msgid "Receiving ===>"
 msgstr ""
 
-#: mainwindow.py:109
+#: mainwindow.py:109 mainwindow.py:110
 msgid "Running index:"
 msgstr ""
 
-#: mainwindow.py:252 mainwindow.py:257
+#: mainwindow.py:252 mainwindow.py:257 mainwindow.py:266
 msgid "Running. Please wait, this may take several minutes..."
 msgstr ""
 
-#: mainwindow.py:170
+#: mainwindow.py:170 mainwindow.py:172
 msgid "Select"
 msgstr ""
 
 #: mainwindow.py:235 mainwindow.py:241 mainwindow.py:203 mainwindow.py:240
-#: mainwindow.py:246
+#: mainwindow.py:246 mainwindow.py:207 mainwindow.py:249 mainwindow.py:255
 msgid "Start"
 msgstr ""
 
-#: mainwindow.py:251 mainwindow.py:256
+#: mainwindow.py:251 mainwindow.py:256 mainwindow.py:265
 msgid "Starting benchmark..."
 msgstr ""
 
-#: mainwindow.py:250 mainwindow.py:255
+#: mainwindow.py:250 mainwindow.py:255 mainwindow.py:264
 msgid "Stop"
 msgstr ""
 
-#: mainwindow.py:243 mainwindow.py:248
+#: mainwindow.py:243 mainwindow.py:248 mainwindow.py:257
 msgid "Stopping Thread...."
 msgstr ""
 
-#: mainwindow.py:214 mainwindow.py:219
+#: mainwindow.py:214 mainwindow.py:219 mainwindow.py:223
 msgid "This program comes with absolutely no warranty."
 msgstr ""
 
-#: mainwindow.py:98
+#: mainwindow.py:98 mainwindow.py:99
 msgid "Thread Finished, garbage collecting now..."
 msgstr ""
 
-#: mainwindow.py:174
+#: mainwindow.py:174 mainwindow.py:176
 msgid "Type"
 msgstr ""
 
-#: mainwindow.py:276 mainwindow.py:281
+#: mainwindow.py:276 mainwindow.py:281 mainwindow.py:290
 msgid "Verify dir"
 msgstr ""
 
-#: mainwindow.py:100
+#: mainwindow.py:100 mainwindow.py:101
 msgid "Verifying if temp file exists"
 msgstr ""
 
-#: mainwindow.py:166
+#: mainwindow.py:166 mainwindow.py:168
 msgid "Write"
 msgstr ""
 
-#: mainwindow.py:102
+#: mainwindow.py:102 mainwindow.py:103
 msgid "Yes, removing the file:"
 msgstr ""
 
-#: mainwindow.py:278 mainwindow.py:283
+#: mainwindow.py:278 mainwindow.py:283 mainwindow.py:292
 msgid "is writable."
 msgstr ""
